@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import SubHeading from "../SubHeading";
-import bgImg from "../../assets/images/landingpage/landing-contactus.webp";
 import { SpinnerContext } from "../SpinnerContext";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
