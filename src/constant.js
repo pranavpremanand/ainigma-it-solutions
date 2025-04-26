@@ -29,10 +29,11 @@ export const companyDetails = {
   phone: "+91-9923987757",
   address: "At & Post Tempale, Tal – Mangaon, Dist – Raigad, 402104",
   email: "ainigma.it@gmail.com",
-  linkedin: "",
+  linkedin: "https://linkedin.com/in/ainigma-it-solutions-26b56b361",
   instagram: "https://www.instagram.com/ainigma.in?igsh=dmNqdHMwNHpxY3Rl",
   facebook: "https://www.facebook.com/share/18QaG3z5d1/",
 };
+
 
 export const routes = [
   {
