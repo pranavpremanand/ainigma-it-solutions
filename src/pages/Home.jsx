@@ -54,7 +54,7 @@ const Home = () => {
           <p className="sub-heading">
             Welcome to{" "}
             <span className="text-primary font-semibold block sm:inline">
-              Ainigma IT Solutions
+              AInigma  IT Solutions
             </span>
           </p>
           <h1 className="heading capitalize">
@@ -155,7 +155,7 @@ const Home = () => {
                 <p className="desc">
                   At{" "}
                   <span className="font-medium text-primary">
-                    Ainigma IT Solutions
+                    AInigma  IT Solutions
                   </span>
                   , we’re passionate about creating solutions that make a real
                   difference. Our team specializes in a wide range of digital

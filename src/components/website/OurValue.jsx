@@ -13,7 +13,7 @@ const OurValue = () => {
             Driving Innovation & Excellence
           </h2>
           <p data-aos="fade-up" className="desc">
-            At Ainigma IT Solutions, we believe in the power of innovation to
+            At AInigma  IT Solutions, we believe in the power of innovation to
             drive change, and we are committed to delivering exceptional
             solutions that meet the unique needs of our clients.
           </p>

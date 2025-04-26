@@ -39,7 +39,7 @@ const ContactForm = () => {
       to: companyDetails.email,
       subject: values.subject,
       body: emailBody,
-      name:"AINIGMA IT SOLUTIONS",
+      name:"AInigma  IT SOLUTIONS",
     };
 
     await fetch("https://send-mail-redirect-boostmysites.vercel.app/send-email", {
@@ -81,7 +81,7 @@ const ContactForm = () => {
             Get In Touch With Us!
           </h2>
           <p data-aos="fade-up" className="desc text-center max-w-[60rem]">
-            Let Ainigma IT Solutions be the catalyst for your digital
+            Let AInigma  IT Solutions be the catalyst for your digital
             transformation. Together, we can build solutions that are as dynamic
             as your vision, helping your business reach new heights.
           </p>
@@ -177,7 +177,7 @@ const ContactForm = () => {
           </div>
           <button
             disabled={isSubmitting}
-            type="button"
+            type="submit"
             className="secondary-btn mt-2"
           >
             Send Message

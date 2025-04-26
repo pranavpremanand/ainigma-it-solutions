@@ -38,7 +38,7 @@ const LeadForm = () => {
       to: companyDetails.email,
       subject: values.subject,
       body: emailBody,
-      name: "AINIGMA IT SOLUTIONS",
+      name: "AInigma  IT SOLUTIONS",
     };
 
     await fetch(
@@ -175,7 +175,7 @@ const LeadForm = () => {
         </div>
         <button
           disabled={isSubmitting}
-          type="button"
+          type="submit"
           className="secondary-btn mt-3 w-full"
         >
           Submit

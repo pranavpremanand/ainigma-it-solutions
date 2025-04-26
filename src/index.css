@@ -58,7 +58,7 @@ html {
     @apply text-base font-light;
   }
   .active-link {
-    @apply text-primary font-medium;
+    @apply text-secondary font-medium;
   }
   .primary-btn {
     @apply text-white font-medium cursor-pointer tracking-wide bg-gradient-to-b from-primary to-primary text-sm hover:shadow-primary/45 hover:-translate-y-1 shadow-large shadow-transparent rounded-lg px-4 py-3 min-w-[8rem] flex justify-center text-center transition-all duration-300;

@@ -28,10 +28,10 @@ export { logoImg };
 export const companyDetails = {
   phone: "+91-9923987757",
   address: "At & Post Tempale, Tal – Mangaon, Dist – Raigad, 402104",
-  email: "abc@xyz.com",
+  email: "ainigma.it@gmail.com",
   linkedin: "",
-  instagram: "",
-  twitter: "",
+  instagram: "https://www.instagram.com/ainigma.in?igsh=dmNqdHMwNHpxY3Rl",
+  facebook: "https://www.facebook.com/share/18QaG3z5d1/",
 };
 
 export const routes = [
@@ -128,35 +128,35 @@ export const testimonials = [
     name: "Sarah T",
     position: "Product Manager at TechSolutions",
     img: require("./assets/images/testimonial3.png"),
-    desc: "“Partnering with Ainigma was a transformative experience for us. They took our vision for a mobile app and turned it into something that not only works smoothly but also provides a really great user experience. The team listened to our feedback and kept us in the loop throughout the entire process. Since the app launch, we’ve seen a noticeable increase in user engagement and positive feedback. We’re really happy with the results and look forward to collaborating with them again on future projects.”",
+    desc: "“Partnering with AInigma  was a transformative experience for us. They took our vision for a mobile app and turned it into something that not only works smoothly but also provides a really great user experience. The team listened to our feedback and kept us in the loop throughout the entire process. Since the app launch, we’ve seen a noticeable increase in user engagement and positive feedback. We’re really happy with the results and look forward to collaborating with them again on future projects.”",
   },
   {
     id: 2,
     name: "James R",
     position: "Founder of GreenGoods",
     img: require("./assets/images/testimonial1.png"),
-    desc: "“We came to Ainigma with a clear vision: we needed a website that was both modern and functional. What we got exceeded all expectations. Not only did they give us a sleek new design, but they also made sure the website was optimized for both performance and search engines. Since the launch, we've experienced higher traffic and more conversions. Their team made the entire process easy, and we’re thrilled with the end result.”",
+    desc: "“We came to AInigma  with a clear vision: we needed a website that was both modern and functional. What we got exceeded all expectations. Not only did they give us a sleek new design, but they also made sure the website was optimized for both performance and search engines. Since the launch, we've experienced higher traffic and more conversions. Their team made the entire process easy, and we’re thrilled with the end result.”",
   },
   {
     id: 3,
     name: "Jessica P",
     position: "Director of Operations at DataMinds",
     img: require("./assets/images/testimonial2.png"),
-    desc: "“We were unsure of how to integrate AI into our business processes, but Ainigma helped us find the perfect solution. They developed a machine learning model that’s completely transformed the way we approach customer service and decision-making. The team’s deep understanding of AI and their dedication to solving our unique challenges made a huge impact on our business. Thanks to their work, we’ve been able to improve our customer support system and gain more meaningful insights from our data.”",
+    desc: "“We were unsure of how to integrate AI into our business processes, but AInigma  helped us find the perfect solution. They developed a machine learning model that’s completely transformed the way we approach customer service and decision-making. The team’s deep understanding of AI and their dedication to solving our unique challenges made a huge impact on our business. Thanks to their work, we’ve been able to improve our customer support system and gain more meaningful insights from our data.”",
   },
   {
     id: 4,
     name: "Michael B",
     position: "Chief Technology Officer at AutoWorks Inc.",
     img: require("./assets/images/testimonial4.jpg"),
-    desc: "“Ainigma helped us create a custom software solution that has streamlined our internal processes and increased productivity. The software was tailored specifically to our workflow, which made a big difference in terms of efficiency and reducing human error. Their team really understood our needs and made sure the system integrated flawlessly with the other tools we use. We’re incredibly pleased with the results and look forward to continuing to work with them.”",
+    desc: "“AInigma  helped us create a custom software solution that has streamlined our internal processes and increased productivity. The software was tailored specifically to our workflow, which made a big difference in terms of efficiency and reducing human error. Their team really understood our needs and made sure the system integrated flawlessly with the other tools we use. We’re incredibly pleased with the results and look forward to continuing to work with them.”",
   },
   {
     id: 5,
     name: "Emily H",
     position: "Marketing Lead at HomeStyle Furnishings",
     img: require("./assets/images/testimonial5.jpg"),
-    desc: "“We wanted to offer our customers a way to visualize products in their own space before they bought them. Ainigma brought our idea to life with a brilliant AR app that’s been a hit with our customers. The ability to virtually “try out” furniture before purchasing has improved both customer engagement and sales. Their expertise in AR/VR is second to none, and we couldn’t be more thrilled with how they turned our vision into reality.”",
+    desc: "“We wanted to offer our customers a way to visualize products in their own space before they bought them. AInigma  brought our idea to life with a brilliant AR app that’s been a hit with our customers. The ability to virtually “try out” furniture before purchasing has improved both customer engagement and sales. Their expertise in AR/VR is second to none, and we couldn’t be more thrilled with how they turned our vision into reality.”",
   },
 ];
 
@@ -168,7 +168,7 @@ export const allServices = [
       "We create powerful, user-friendly mobile applications for both Android and iOS platforms. Our customized approach ensures intuitive design, high performance, and scalability for your business needs.",
     icon: FaMobileAlt,
     detailHeading: "App Development – Crafting Seamless Mobile Experiences",
-    detailContent: `<p>In today's world, mobile apps are at the forefront of user engagement. At Ainigma, we design and develop powerful, user-friendly mobile applications that cater to both Android and iOS platforms. Our team ensures that every app is not only intuitive and visually appealing but also high-performing and scalable.</p>
+    detailContent: `<p>In today's world, mobile apps are at the forefront of user engagement. At AInigma , we design and develop powerful, user-friendly mobile applications that cater to both Android and iOS platforms. Our team ensures that every app is not only intuitive and visually appealing but also high-performing and scalable.</p>
     <p>We take a customized approach to app development, focusing on functionality, speed, and security to deliver an outstanding user experience. Whether you need a productivity app, a gaming platform, or a business solution, we're committed to building apps that meet your unique needs.</p>
     <br/>
     <ul>
@@ -186,7 +186,7 @@ export const allServices = [
       "We build websites that do more than just look good - they deliver real results. From e-commerce to portfolios, we create fast, mobile-friendly sites that convert visitors and reflect your brand identity.",
     icon: FaGlobe,
     detailHeading: "Website Development – Building Your Digital Presence",
-    detailContent: `<p>Your website is often the first point of contact between your brand and your audience. At Ainigma, we specialize in creating websites that do more than just look good – they deliver real, measurable results. From e-commerce platforms to simple portfolio sites, our team has the expertise to build websites that not only capture attention but also convert visitors into customers.</p>
+    detailContent: `<p>Your website is often the first point of contact between your brand and your audience. At AInigma , we specialize in creating websites that do more than just look good – they deliver real, measurable results. From e-commerce platforms to simple portfolio sites, our team has the expertise to build websites that not only capture attention but also convert visitors into customers.</p>
     <p>We prioritize user experience, ensuring that your site is fast, mobile-friendly, and search engine optimized. Our designs are tailored to reflect your brand's identity, while our development process focuses on functionality, security, and scalability.</p>
     <br/>
     <ul>
@@ -205,7 +205,7 @@ export const allServices = [
     icon: FaRobot,
     detailHeading:
       "AI Development – Harnessing the Power of Intelligent Technology",
-    detailContent: `<p>AI is no longer the future; it's the present. At Ainigma, we help businesses integrate AI into their operations, empowering them to make smarter decisions and enhance productivity. Whether it's machine learning, natural language processing, or computer vision, we build AI-driven solutions that solve real-world problems.</p>
+    detailContent: `<p>AI is no longer the future; it's the present. At AInigma , we help businesses integrate AI into their operations, empowering them to make smarter decisions and enhance productivity. Whether it's machine learning, natural language processing, or computer vision, we build AI-driven solutions that solve real-world problems.</p>
     <p>Our AI experts work closely with you to understand your goals and develop solutions that not only meet your needs but also anticipate future demands. From automating tasks to providing actionable insights, we bring AI to life in a way that's practical and impactful.</p>
     <br/>
     <ul>
@@ -224,7 +224,7 @@ export const allServices = [
     icon: FaLaptopCode,
     detailHeading:
       "Custom Software Development – Tailored to Your Business Needs",
-    detailContent: `<p>Every business is unique, and sometimes off-the-shelf software just doesn't cut it. At Ainigma, we specialize in developing custom software solutions designed specifically for your business. Whether you need an enterprise resource planning (ERP) system, customer relationship management (CRM) software, or a tailored web application, we can create the perfect solution for you.</p>
+    detailContent: `<p>Every business is unique, and sometimes off-the-shelf software just doesn't cut it. At AInigma , we specialize in developing custom software solutions designed specifically for your business. Whether you need an enterprise resource planning (ERP) system, customer relationship management (CRM) software, or a tailored web application, we can create the perfect solution for you.</p>
     <p>Our custom development process is collaborative, ensuring that the final product aligns with your goals and streamlines your operations. We focus on creating solutions that are scalable, secure, and ready for the future.</p>
     <br/>
     <ul>
@@ -242,7 +242,7 @@ export const allServices = [
       "We create immersive AR/VR experiences that transform how users interact with technology. From virtual training to product demos, our solutions add real value across multiple industries.",
     icon: FaVrCardboard,
     detailHeading: "AR/VR Development – Immersing Users in New Realities",
-    detailContent: `<p>The world of augmented and virtual reality is transforming how we interact with technology, and at Ainigma, we're pushing the boundaries of this immersive space. Whether you're looking to create virtual training environments, interactive product demos, or engaging experiences for entertainment, we have the expertise to bring your vision to life.</p>
+    detailContent: `<p>The world of augmented and virtual reality is transforming how we interact with technology, and at AInigma , we're pushing the boundaries of this immersive space. Whether you're looking to create virtual training environments, interactive product demos, or engaging experiences for entertainment, we have the expertise to bring your vision to life.</p>
     <p>We design AR and VR solutions that not only engage users but also add real value to your business, whether that's through improved training, enhanced marketing, or innovative product experiences. Our team works across industries, including gaming, education, real estate, and healthcare, to build experiences that captivate and inspire.</p>
     <br/>
     <ul>
@@ -257,12 +257,12 @@ export const allServices = [
 
 // portfolio images (web development)
 export const webPortfolio = [
-  {
-    id: 1,
-    img: require("./assets/images/portfolio/web-development/5ghomes.webp"),
-    title: "5g Homes",
-    link: "https://5ghighspeedinternet.co",
-  },
+  // {
+  //   id: 1,
+  //   img: require("./assets/images/portfolio/web-development/5ghomes.webp"),
+  //   title: "5g Homes",
+  //   link: "https://5ghighspeedinternet.co",
+  // },
   {
     id: 2,
     img: require("./assets/images/portfolio/web-development/cold-creekcap.webp"),

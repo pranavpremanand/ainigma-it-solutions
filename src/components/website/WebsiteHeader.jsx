@@ -15,17 +15,12 @@ const WebsiteHeader = () => {
   };
 
   return (
-    <div className="py-4 fixed top-0 w-full bg-secondary backdrop-blur-md z-50 text-primary_text">
+    <div className="py-4 fixed top-0 w-full bg-primary backdrop-blur-md z-50 text-white">
       <div className="wrapper flex justify-between items-center gap-10">
         <div className="flex justify-between items-center gap-20 w-full">
           <Helmet>
             {/* Preload the logo image */}
-            <link
-              rel="preload"
-              href={logoImg}
-              as="image"
-              type="image/png"
-            />
+            <link rel="preload" href={logoImg} as="image" type="image/png" />
           </Helmet>
           <Link
             aria-label="Home"
@@ -37,7 +32,7 @@ const WebsiteHeader = () => {
               src={logoImg}
               width="75"
               height="75"
-              className="w-[2.5rem] md:w-[3.5rem] md:scale-125 object-contain"
+              className="w-[3.2rem] md:w-[3.5rem] md:scale-125 object-contain"
               alt="logo"
             />
           </Link>
@@ -47,8 +42,8 @@ const WebsiteHeader = () => {
               .map((option) => (
                 <Link
                   to={`${option.path}`}
-                  className={`link ${
-                    option.path === pathname && "text-primary font-bold"
+                  className={`link hover:!text-secondary ${
+                    option.path === pathname && "text-secondary font-bold"
                   }`}
                   key={option.path}
                 >
@@ -57,7 +52,7 @@ const WebsiteHeader = () => {
               ))}
             <Link
               to="/contact-us"
-              className="primary-btn"
+              className="secondary-btn"
               spy={true}
               smooth={true}
               offset={-60}
@@ -99,7 +94,7 @@ const WebsiteHeader = () => {
           onClick={toggleDrawer}
         >
           <Hamburger
-            color="#011F3D"
+            color="#ffffff"
             size="23"
             toggled={isOpen}
             rounded

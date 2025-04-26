@@ -54,7 +54,7 @@ const AboutUs = () => {
               <p className="desc">
                 At{" "}
                 <span className="font-semibold text-primary">
-                  Ainigma IT Solutions
+                  AInigma  IT Solutions
                 </span>
                 , we believe that great technology can transform the way
                 businesses operate. As a team of passionate professionals, we

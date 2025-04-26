@@ -1,7 +1,8 @@
 import Drawer from "react-modern-drawer";
 import { Divide as Hamburger } from "hamburger-react";
 import React, { useState } from "react";
-import { Link } from "react-scroll";
+import { Link as Scroll } from "react-scroll";
+import { Link } from "react-router-dom";
 import { logoImg } from "../../constant";
 import { X } from "lucide-react";
 import { Helmet } from "react-helmet";
@@ -9,7 +10,7 @@ import { Helmet } from "react-helmet";
 const options = [
   {
     name: "Home",
-    path: "banner",
+    path: "/",
   },
   {
     name: "About Us",
@@ -33,7 +34,7 @@ const LandingHeader = () => {
   };
 
   return (
-    <div className="py-4 fixed top-0 w-full bg-secondary backdrop-blur-md z-50 text-primary_text">
+    <div className="py-4 fixed top-0 w-full bg-primary backdrop-blur-md z-50 text-secondary">
       <div className="wrapper flex justify-between items-center gap-10">
         <div className="flex justify-between items-center gap-20 w-full pl-[1rem] lg:pl-0">
           <Helmet>
@@ -50,30 +51,36 @@ const LandingHeader = () => {
               src={logoImg}
               width="75"
               height="75"
-              className="w-[2.5rem] md:w-[3.5rem] md:scale-125 object-contain"
+              className="w-[3.2rem] md:md:w-[3.5rem] md:scale-125 object-contain"
               alt="logo"
             />
           </Link>
           <div className="lg:flex items-center gap-10 hidden">
             {options
               .filter((option) => option.path !== "contact")
-              .map((option) => (
-                <Link
-                  to={`${option.path}`}
-                  className="link"
-                  key={option.path}
-                  spy={true}
-                  smooth={true}
-                  offset={-60}
-                  duration={1000}
-                  activeClass="active-link"
-                >
-                  {option.name}
-                </Link>
-              ))}
+              .map((option) => {
+                return option.path.includes("/") ? (
+                  <Link className="text-white" to={`${option.path}`}>
+                    {option.name}
+                  </Link>
+                ) : (
+                  <Scroll
+                    to={`${option.path}`}
+                    className="link hover:!text-secondary text-white"
+                    key={option.path}
+                    spy={true}
+                    smooth={true}
+                    offset={-60}
+                    duration={1000}
+                    activeClass="active-link"
+                  >
+                    {option.name}
+                  </Scroll>
+                );
+              })}
             <Link
               to="contact"
-              className="primary-btn"
+              className="secondary-btn"
               spy={true}
               smooth={true}
               offset={-60}
@@ -120,7 +127,7 @@ const LandingHeader = () => {
           aria-label="toggle drawer"
         >
           <Hamburger
-            color="#011F3D"
+            color="#ffffff"
             size="23"
             toggled={isOpen}
             rounded

@@ -76,7 +76,7 @@ const Testimonials = () => {
           What They Say About Us
         </h2>
         <p className="desc max-w-4xl mx-auto text-center">
-          At Ainigma, we believe the best way to showcase our work is through
+          At AInigma , we believe the best way to showcase our work is through
           the voices of the people we’ve helped. Our clients come from all kinds
           of industries, and we’re proud to have been a part of their success
           stories. Take a look at what they have to say about our services and
