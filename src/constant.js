@@ -26,7 +26,7 @@ import {
 export { logoImg };
 
 export const companyDetails = {
-  phone: "+91-9923987757",
+  phone: "+91-8446913757",
   address: "At & Post Tempale, Tal – Mangaon, Dist – Raigad, 402104",
   email: "ainigma.it@gmail.com",
   linkedin: "https://linkedin.com/in/ainigma-it-solutions-26b56b361",
