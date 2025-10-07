@@ -27,7 +27,7 @@ export { logoImg };
 
 export const companyDetails = {
   phone: "+91-8446913757",
-  address: "At & Post Tempale, Tal – Mangaon, Dist – Raigad, 402104",
+  address: "Bengaluru, India",
   email: "ainigma.it@gmail.com",
   linkedin: "https://linkedin.com/in/ainigma-it-solutions-26b56b361",
   instagram: "https://www.instagram.com/ainigma.in?igsh=dmNqdHMwNHpxY3Rl",

@@ -21,7 +21,7 @@ L.Marker.prototype.options.icon = DefaultIcon;
 
 const MapComponent = () => {
   // Use useMemo to memoize the location array
-  const location = useMemo(() => [18.238243, 73.281693], []);
+  const location = useMemo(() => [12.9716, 77.5946], []); // Bangalore, India
 
   const mapRef = useRef(); // Reference to the map
 
